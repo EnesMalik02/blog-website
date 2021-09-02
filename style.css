@@ -1,0 +1,188 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@300&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Mulish', sans-serif;
+}
+
+    /* body{
+        margin: 0;
+        width: 100%;
+        height: 100vh;
+        background: linear-gradient(45deg, #ee7752, #e73c7e, #23a6d5);
+        background-size: 500% 500%;
+        animation: animeBG 6s ease infinite;
+        animation-direction: alternate;
+    }
+    
+    @keyframes animeBG {
+        0% {background-position: 0%;}
+        100% {background-position: 100%}
+    } */
+
+body{
+    background: rgb(138, 216, 221);
+}
+    
+.navbar{
+    background-color: rgb(32, 81, 114);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    max-width: 1100px;
+    margin-left: 100px;
+    border-radius: 0 0px 15px 15px;
+    position: fixed;
+    z-index: 1;
+}
+
+.navbar{
+    width: 100%;
+}
+
+h1{
+    color: white;
+    margin-left: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.navbar ul{
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    transition: 0.8s;
+}
+
+.navbar ul li a{
+    padding: 1.3rem;
+    border-radius: 20px;
+    transition: 0.8s;
+}
+
+.navbar ul li a:hover{
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.247);
+}
+
+
+/* CONTAINER-2 */
+
+.container{
+    text-align: center;
+    padding-top: 50px;
+    border: 1px solid rgb(0, 0, 0);
+    height: 500px;
+}
+
+.container img{
+    margin-top: 50px;
+    height: auto;
+    border-radius: 100%;
+}
+
+.container h1{
+    text-align: center;
+    padding-top: 6px;
+    color: #065353;
+    font-size: 40px;
+}
+
+.container a{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    background-color: rgb(32, 81, 114);
+    width: 130px;
+    height: 50px;
+    font-size: 22px;
+    margin-top: 10px;
+    padding-top: 10px;
+    margin-left: -67px;
+    border-radius: 12px;
+    transition: 0.8s;
+}
+
+.container a:hover{
+    background-color: rgba(133, 133, 133, 0.486);
+    color: black;
+}
+
+/* CONTAINER-2 */
+
+.container-2 .navbar-2{
+    background-color: rgb(32, 81, 114);
+    width: 100%;
+    height: 100px;
+    margin-top: 200px;
+
+}
+
+.container-2 .navbar-2 h2{
+    text-align: center;
+    padding-top: 32px;
+    font-size: 30px;
+}
+
+#raius{
+    
+    border-radius: 10px;
+}
+
+.container-2 .works .work{
+    margin: 1rem;  
+    background-color: grey;  
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+}
+
+.works div{
+    display: flex;
+    padding: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+
+/* CONTAINER-3 */
+
+.container-3 .navbar-3{
+    height: 80px;
+    width: 100%;
+    background-color: rgb(32, 81, 114);
+}
+
+.container-3 .navbar-3 h2{
+    padding-top: 30px;
+    text-align: center;
+}
+
+.container-3 .navbar-3 .form{
+        margin-top: 100px;
+    text-align: center;
+}
+
+.form{
+    font-size: 30px;
+    padding: 5px;
+    margin-left: 420px;
+    border:  1px solid black;
+    width: 500px;
+    position: absolute;
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+
+.form #name,#e-mail{
+    padding-left: 20px;
+}
+
+
+#submit{
+
+}
